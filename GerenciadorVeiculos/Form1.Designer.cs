@@ -70,7 +70,7 @@
             cmbTipo.Name = "cmbTipo";
             cmbTipo.Size = new Size(188, 23);
             cmbTipo.TabIndex = 3;
-            cmbTipo.SelectionChangeCommitted += cmbTipo_SelectedIndexChanged;
+            cmbTipo.SelectedIndexChanged += cmbTipo_SelectedIndexChanged;
             // 
             // modelo
             // 
